@@ -1,0 +1,163 @@
+Линукс
+Лекция 21-Nov-22 Brattsev Alexey
+
+df -h
+ps aux -  процессы в реальном времени, shift-m  внутри - показать какой процесс занимает больше всего времени
+htop -  аналог ps
+ctr-l -  очистить экран
+export MYVAR SERGEY -  создать переменную
+env
+ls / -1
+date ; free -  выполнить 2 команды сразу
+touch - create file
+chmod +x file -  поставить права на испольнение
+
+
+сравнение в баше
+n1 -eq n2Возвращает истинное значение, если n1 равно n2.
+n1 -ge n2 Возвращает истинное значение, если n1больше или равно n2.
+n1 -gt n2Возвращает истинное значение, если n1 больше n2.
+n1 -le n2Возвращает истинное значение, если n1меньше или равно n2.
+n1 -lt n2Возвращает истинное значение, если n1 меньше n2.
+n1 -ne n2Возвращает истинное значение, если n1не равно n2.
+
+cd -  вернуться назад
+
+server ssh.exe basic_47-48e@linux.telran-edu.de
+
+Файл скрипта
+#!/bin/bash
+
+# This is a comment
+
+#echo "The current directory is:"
+
+#pwd
+
+#echo "The user logged in is:"
+
+#whoami
+
+
+# display user home
+
+#echo "Home for the current user is: $HOME"
+
+
+#echo "I have \$1 in my pocket"
+
+
+#grade=5
+
+#person="Adam"
+
+#echo "$person is a good boy, he is in grade $grade"
+
+
+#mydir=`pwd`
+
+#echo $mydir
+
+#mydir01=$(pwd)
+
+#echo $mydir01
+
+#echo $0
+
+#echo $1
+
+#echo $2
+
+#echo $3
+
+
+#var1=$(( 5 + 5 ))
+
+#echo $var1
+
+#var2=$(( $var1 * 2 ))
+
+#echo $var2
+
+
+#if pwd
+#then
+#echo "It works"
+#fi
+
+
+#if pwd2342354
+#then
+#echo "It works"
+#fi
+
+
+
+#user=operator123
+
+#if grep $user /etc/passwd
+
+#then
+
+#echo "The user $user Exists"
+
+#else
+
+#echo "The user $user doesn’t exist"
+
+#fi
+
+
+#val1=2
+
+#if [ $val1 -gt 5 ]
+
+#then
+
+#echo "The test value $val1 is greater than 5"
+
+#else
+
+#echo "The test value $val1 is not greater than 5"
+
+#fi
+
+mydir=$HOME/dirtest
+
+if [ -d $mydir ]
+
+then
+
+echo "The $mydir directory exists"
+
+cd $mydir
+
+ls -a
+
+else
+
+echo "The $mydir directory does not exist"
+
+
+fi
+
+
+myfile=$HOME/dirtest/file.txt
+
+if [ -e $myfile ]
+
+then
+
+echo "The $myfile file exists"
+
+
+
+ls $myfile
+
+else
+
+echo "The $myfile file does not exist"
+
+
+fi
+
