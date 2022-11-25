@@ -9,9 +9,15 @@ export MYVAR SERGEY -  создать переменную
 env
 chmod u+x адрес_файла - сделать файл исполняемым для владельца
 ls / -1
+ls -l - вывести полную инфу о файлах
 date ; free -  выполнить 2 команды сразу
 touch - create file
 chmod +x file -  поставить права на испольнение
+server ssh.exe basic_47-48e@linux.telran-edu.de - сервер телран
+Nano:
+  Alt-A - начать выделение
+  Ctrl-K - вырезать
+  Alt-6 - скопировать
 
 
 сравнение в баше
@@ -24,7 +30,7 @@ n1 -ne n2Возвращает истинное значение, если n1не
 
 cd -  вернуться назад
 
-server ssh.exe basic_47-48e@linux.telran-edu.de
+
 
 Файл скрипта
 #!/bin/bash
