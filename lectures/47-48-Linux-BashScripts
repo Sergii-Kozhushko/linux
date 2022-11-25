@@ -169,6 +169,6 @@ echo "The $myfile file does not exist"
 
 fi
 
-ssh -T git@github.com --  проверить загружен ли мой публичный ключ на гитхаб
+
 
 
