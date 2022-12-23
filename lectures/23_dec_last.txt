@@ -1,0 +1,2 @@
+ssh-copy-id USER@SERVER
+~/.ssh/autorized_keys - файл с ключами пользователей
